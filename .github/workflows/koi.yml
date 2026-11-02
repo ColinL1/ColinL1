@@ -24,15 +24,19 @@ jobs:
           body: asagi
           output-dir: koi
 
+      - name: Reset git-koi download folder
+        run: rm -rf "$RUNNER_TEMP/git-koi"
+
       - uses: yalongwastaken/git-koi@v1
-        continue-on-error: true
         with:
           login: didillysquat
           body: gold
           output-dir: koi-didillysquat
 
+      - name: Reset git-koi download folder
+        run: rm -rf "$RUNNER_TEMP/git-koi"
+
       - uses: yalongwastaken/git-koi@v1
-        continue-on-error: true
         with:
           login: reefgenomics
           body: tea
@@ -41,8 +45,7 @@ jobs:
       - name: Commit the koi if it changed
         shell: bash
         run: |
-          git add koi/koi.gif
-          git add koi-*/koi.gif || true
+          git add koi/koi.gif koi-*/koi.gif
           if git diff --cached --quiet; then
             echo "The koi is unchanged; nothing to commit."
             exit 0
