@@ -1,6 +1,12 @@
 # 💫 About Me:
 PhD candidate & bioinformatician in the Voolstra Lab (University of Konstanz), working on coral holobiont diversity through metabarcoding and metagenomics to understand the molecular signature of thermal resilience.<br>
 
+<p align="center">
+  <img src="koi-didillysquat/koi.gif" width="256" alt="didillysquat's koi" />
+  <img src="koi/koi.gif" width="256" alt="My koi" />
+  <img src="koi-reefgenomics/koi.gif" width="256" alt="reefgenomics's koi" />
+</p>
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/luigi-colin-91b580144) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:luigi.colin@uni-konstanz.de) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-6966-2817)
 
